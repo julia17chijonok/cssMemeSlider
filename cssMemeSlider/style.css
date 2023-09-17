@@ -85,3 +85,54 @@
     transition: all 0.3s;
     cursor: default;
 }
+
+@media (min-width: 1366px) {
+    .meme__phrase{
+        font-size: 35px;
+    }
+    .meme__title{
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 1366px) {
+    .meme__phrase{
+        font-size: 35px;
+    }
+    .meme__title{
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .meme__phrase{
+        font-size: 20px;
+    }
+    .meme__title{
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 568px) {
+    .meme__phrase{
+        font-size: 15px;
+    }
+    .meme__title{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 360px) {
+    .meme__title{
+        font-size: 15px;
+    }
+    .meme__phrase{
+        font-size: 10px;
+    }
+}
+
+@media screen and (orientation:portrait) {
+    .meme__dots{
+        height: 4vh;
+    }
+}
